@@ -1,0 +1,85 @@
+/*
+Theme Name: Moda Mia
+Theme URI: http://primomotif.com
+Author: Primo Motif ad & design agency
+Author URI: http://aroldoalvarez.com
+Description: Modern Custom E-Commerce Theme developed for shopmodamia.com 
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: moda-mia
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Moda Mia is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+body{border:20px solid white; font-family: 'Open Sans', sans-serif;}
+header{background-color: rgba(0, 0, 0, 0.9); /* Color white with alpha 0.9*/}
+.center{text-align:center; margin-left:auto; margin-right:auto; margin:0 auto;}
+.site-header{padding:20px 0px;}
+.showcase{margin-bottom:0px;}
+.section{padding:80px 0px 150px 0px;}
+.main-navigation{margin-top:10px;}
+.main-navigation ul{display:inline-block; padding:0px;}
+.main-navigation ul li{display:inline; color:#fff; padding:0px 25px; font-family: 'Open Sans', sans-serif; font-weight:300;}
+.main-navigation ul li a{color:#fff; text-decoration:none;}
+.shoppingicon{font-size:12px; color:#fff;}
+.shoppingicon span{padding:0px 10px;}
+.site-footer{background-color:#242424; color:#fff;}
+.footer-nav{padding-top:50px; margin-bottom:10px;}
+.footer-nav h5{margin-bottom:50px;}
+.footer-nav ul{display:block; margin:0px; padding:0px;}
+.footer-nav ul li{display:block; padding:0px 0px 12px 0px; text-align:left; color:#fff; list-style-type:none;}
+.footer-nav ul li a{color:#6f6f6f; text-decoration:none;}
+.social{padding:30px 0px;}
+.copyright{float:left;}
+.copyright p{font-size:12px; color:#525252; margin-top:50px; padding:20px 0px;}
+.newsletter{padding:25px 0px; border-top:1px solid #e1e1e1; background-color:#fff;}
+.instagram{ padding:40px 0px 80px 0px;}
+.container h2{margin-bottom:50px;font-family: 'Open Sans', sans-serif; font-weight:300;}
+.fancy {padding-top:35px; padding-bottom:30px; text-align: center; background-image:url('img/mmtag.png'); background-position:top center; background-repeat:no-repeat; border-bottom:1px solid #dddddd;}
+.instagram h3{font-family: 'Open Sans', sans-serif; font-weight:600;}
+.newsletter h4{font-family: 'Open Sans', sans-serif; font-weight:400; font-size:21px;}
+.newsletter-form input{}
+.newsinput{width:300px; padding:30px 10px; height:40px; margin-right:40px; text-indent:5px;}
+.newsletter-form input.newsbutton{background-color:black; border:none; border-radius:4px; text-shadow:none; color:#fff; padding:12px 50px; 	box-shadow: none; font-size:14px; font-family: 'Open Sans', sans-serif; font-weight:300;}
+.specials{padding:30px 0px 0px 0px;margin-top:30px;}
+.specials .frame{border:2px solid black; padding:10px;}
+.specials .frame a{color:black; text-decoration:none;}
+.specials .frame a:hover{color:white;}
+.specials .frame:hover{background-color:#242424; color:white; text-decoration:none; transition-duration:.5s;}
+.specials .frame:hover h3{color:white;}
+.specials .frame:hover p{color:white;}
+.specials h3{font-size:21px; font-family:serif; font-style:italic; margin:0px; margin-bottom:5px; font-weight:400;}
+.specials p{font-size:11px; font-family:sans-serif; text-transform:uppercase; color:#242424;}
+.creditcards{margin-top:67px; float:right; text-align:right;}
+.creditcards img{ width:180px;}
+
+/* ------ Cart 66 Styles -----*/
+.cc-gallery-product-image img{}
+.cc-product-form{margin:0px; padding:0px;}
+.cc-product-list{margin:0px; padding:0px;}
+.cc-gallery-gutter{margin-right:15px;}
+.cc-product-box{margin-top:60px;}
+.cc-product-box h1{font-family: 'Open Sans', sans-serif; font-weight:400; font-size:26px; border-bottom:1px solid #dddddd; margin:0px 0px 10px 0px; padding:0px 0px 15px 0px;}
+.catalog-header{padding:40px 0px 0px 0px; border-bottom:1px solid #dddddd;}
+.catalog-header h1{font-size:24px; font-family: 'Open Sans', sans-serif; font-weight:400; padding-bottom:10px; margin-left:10px;}
+.catalog-body{padding:50px 0px 50px 0px;}
+li.cc-product-grid-item{margin:0px;padding:0px;}
+.cc-product-grid-title{font-size:17px; font-weight:400; margin-bottom:10px !important;}
+.cc-product-price{margin-bottom:20px; font-size:13px; margin-top:0px;}
+
+/* ------- Sidebar Styles -----*/
+#secondary{margin:20px 0px 0px 0px; padding:30px 0px 0px 0px;}
+h2.widget-title{font-size:16px; margin-bottom:30px; font-family: 'Open Sans', sans-serif; font-weight:400;}
+.widget-area{text-align:left; margin:0px; padding:0px;}
+.widget{margin-bottom:50px;}
+ul.cc_cart_widget_list{margin:0px; padding:0px;}
+.widget_categories ul{margin:0px 0px 0px 10px; padding:0px;}
+.widget_categories ul li{list-style-type:none;}
